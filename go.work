@@ -1,10 +1,10 @@
 go 1.22
 
 use (
-	./auth
-	./event
-	./gateway
-	./order
-	./payment
-	./user
+	./modules/auth
+	./modules/event
+	./modules/gateway
+	./modules/order
+	./modules/payment
+	./modules/user
 )
